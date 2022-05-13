@@ -1,0 +1,27 @@
+GET http://localhost:3001/tasks/
+
+###
+
+GET http://localhost:3001/tasks/627e47e0d94a85b31333712f
+
+
+###
+POST http://localhost:3001/tasks/
+Content-Type: application/json
+
+{
+    "task": "Amazinf Preson"
+}
+
+###
+
+PATCH  http://localhost:3001/tasks/627e47e0d94a85b31333712f
+Content-Type: application/json
+
+{
+    "task": "Amazinf dupa a nie człowiek"
+}
+
+### 
+
+DELETE http://localhost:3001/tasks/627e47ead94a85b313337134
